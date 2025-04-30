@@ -4,11 +4,6 @@ import jakarta.persistence.*;
 import lombok.*;
 
 import org.hibernate.envers.Audited;
-import org.hibernate.envers.NotAudited;
-import org.springframework.data.jpa.domain.support.AuditingEntityListener;
-
-import java.time.LocalDate;
-import java.time.LocalDateTime;
 
 @Entity
 @Getter

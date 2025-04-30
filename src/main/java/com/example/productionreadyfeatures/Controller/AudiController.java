@@ -1,11 +1,9 @@
 package com.example.productionreadyfeatures.Controller;
 
-import com.example.productionreadyfeatures.DTO.PostDto;
 import com.example.productionreadyfeatures.Entity.PostEntity;
 import jakarta.persistence.EntityManagerFactory;
 import org.hibernate.envers.AuditReader;
 import org.hibernate.envers.AuditReaderFactory;
-import org.hibernate.envers.Audited;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

@@ -13,7 +13,6 @@ import java.time.LocalDate;
 @NoArgsConstructor
 @Getter
 @Setter
-//DTO is use for take data from client in json format.
 public class EmployeeDTO {
     private Long id;
 
